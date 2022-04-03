@@ -1,0 +1,104 @@
+.Footer_Page{
+    display:flex;
+    flex-direction:column;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+
+    .Footer_Email{
+        display:flex;
+        align-items:center;
+        justify-content:space-around;
+        margin:0;
+        padding: 30px 0px;
+
+        .Left_side{
+            display:flex;
+            align-items:center;
+            justify-content:space-around;
+
+            .Left_first{
+                display:flex;
+                flex-direction:column;
+                padding: 0;
+                margin: 0;
+                text-align: start;
+                font-weight: 50;
+
+                h3{
+                    line-height: 0;
+                    font-weight: 500;
+                }
+                p{
+                    line-height: 0;
+                    font-size: 14px;
+                    margin-top: 30px;
+                }
+            }
+            .Left_second{
+                display:flex;
+                padding: 0;
+                margin: 0;
+                margin-left:50px;
+
+                input{
+                    width:120%;
+                    height: 30px;
+                }
+
+                .R_Arrow{
+                    color:black;
+                    font-size:30px;
+                    margin-left:-25px;
+                    z-index: 10;
+                    cursor: pointer;
+                }
+            }
+        }
+        .Right_side{
+            display:flex;
+            align-items:center;
+            justify-content:space-evenly;
+
+            .Right_first{
+                display:flex;
+                flex-direction:column;
+                padding: 0;
+                margin: 0;
+                text-align: start;
+                font-weight: 50;
+    
+                h3{
+                    line-height: 0;
+                    font-weight: 500;
+                }
+                p{
+                    line-height: 0;
+                    font-size: 14px;
+                    margin-top: 30px;
+                }
+            }
+            .Right_second{
+                display:flex;
+                align-items:center;
+                gap:25px;
+                margin:0;
+                padding: 0;
+                margin-left: 50px;
+
+                a{
+                    text-decoration:none;
+                    color: gray;
+
+                    .L_Logos{
+                        font-size:20px;
+                    }
+                }
+            }
+        }
+    }
+    .Black_Image{
+        width: 100%;
+        padding-top:18px;
+    }
+}

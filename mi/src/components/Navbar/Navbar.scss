@@ -1,0 +1,214 @@
+.Navbar_Main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 5;
+
+    .Navbar_Upper_Main{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:0;
+        margin:0;
+        background-color: rgb(33,33,33);
+
+        .Navbar_Upper{
+            width: 92%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding:0;
+            margin:0;
+    
+            .First_left{
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                text-align:justify;
+                padding:0;
+                margin:0;
+    
+                .UpperNav_Links{
+                    text-decoration: none;
+                    color: rgb(176,176,176);
+                    font-size:12px;
+                    line-height:0;
+                    padding:5px 12px;
+                }
+                .P_Tag{
+                    color: rgb(176,176,176);
+                    font-size:12px;
+                    line-height:0;
+                    padding:5px 12px;
+                    margin-top: 10px;
+                    text-align: center;
+                }
+                .UpperNav_Links{
+                    &:hover{
+                        color: white;
+                    }
+                }
+            }
+            .First_right{
+                display: flex;
+                align-items: center;
+                justify-content:space-evenly;
+                padding:0;
+                margin:0;
+    
+                .UpperNav_Links,p{
+                    text-decoration: none;
+                    color: rgb(176,176,176);
+                    font-size:12px;
+                    line-height:0;
+                    padding:5px 12px;
+                }
+                .P_Tag{
+                    color: rgb(176,176,176);
+                    font-size:12px;
+                    line-height:0;
+                    padding:5px 12px;
+                    margin-top: 10px;
+                }
+                .UpperNav_Links{
+                    &:hover{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    .Navbar_Lower_Main{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction:column;
+        padding:0;
+        margin:0;
+        background-color: transparent;
+        position: relative;
+        z-index: 5;
+
+        &:hover{
+            background-color:white;
+        }
+
+        .Navbar_Lower{
+            width: 92%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding:0;
+            margin:0;            
+
+            .Mi_Logo{
+                width: 60px;
+                height: 60px;
+                background-color:rgb(255,105,0);
+                border-radius:40%;
+                overflow-x:hidden;
+                margin: 10px 0px;
+                
+
+                .Mi_Home{
+                    width: 100%;
+                    margin-left:-100%;
+                    transition: all 0.5s ease;
+
+                    &:hover{
+                        margin-left:0;
+                    }
+                }
+            }
+            .Hover_Nav_Links{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin:0;
+                padding:0;
+                margin-left: 15%;
+
+                .Hover_First{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    margin:0;
+                    padding:0;
+
+                    .Slider_Links{
+                        color:gray;
+                        padding:0px 25px;
+                        font-size: 13px;
+                        font-weight: 600;
+                        cursor:crosshair;
+
+                        &:hover{
+                            color:rgb(255,105,0);
+                        }
+                    }
+
+                }
+                .Hover_Second{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    margin:0;
+                    padding:0;
+                    margin-bottom:15px;
+
+                    .Non_Slider_Links{
+                        text-decoration: none;
+                        color:gray;
+                        padding:0px 25px;
+                        font-size: 13px;
+                        font-weight: 600;
+
+                        &:hover{
+                            color:rgb(255,105,0);
+                        }
+                    }
+                }
+            }
+        }
+        .Nav_Slider_Main{
+            width: 100%;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            padding: 0;
+            margin: 0;
+            margin-top:17%;
+            position: absolute;
+            background-color:white;
+            transition: all 0.5s ease;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+            .Inner_Slider{
+                width: 85%;
+                display:flex;
+                align-items:center;
+                justify-content:space-between;
+                padding: 0;
+                margin: 0;
+
+                .Item_Link{
+                    text-decoration: none;
+                    margin: 0;
+                    padding: 0;
+
+                    p{
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}

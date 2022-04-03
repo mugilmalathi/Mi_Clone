@@ -1,0 +1,144 @@
+
+.Home_Main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+
+    .Home_Sliding{
+        width: 100%;
+        background-color: white;
+        z-index: 0;
+        margin-top: -80px;
+    }
+    .All_Main{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin:0;
+        padding:0;
+        margin-top:20px;
+
+        .First_Three{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin:0;
+            padding:0;
+
+            .Three_Single{
+                margin: 0;
+                padding: 0;
+
+                img{
+                    margin: 0;
+                    padding:0;
+
+                    &:hover{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    }
+                }
+            }
+        }
+        .Star_Main{
+            width: 85%;
+            display:flex;
+            align-items:center;
+            justify-content: space-between;
+            padding:0;
+            margin: 0;
+            margin:50px 0px;
+
+            .Star_Line{
+                width: 30%;
+                color:rgb(176,176,176);
+            }
+            .Star_Name{
+                font-size:30px;
+                color:gray;
+            }
+        }
+        .Star_Products{
+            width: 100%;
+            display:flex;
+            align-items:center;
+            justify-content: space-between;
+            gap:3px;
+            padding:0;
+            margin:0;
+
+            .Star_Right{
+                display: flex;
+                align-items:center;
+                justify-content: space-between;
+                flex-direction: column;
+                padding:0;
+                margin:0;
+
+                .Right_Upper{
+                    display: flex;
+                    align-items:center;
+                    justify-content: space-between;
+                    gap: 3px;
+                    padding:0;
+                    margin:0;
+                }
+            }
+            img{
+
+                &:hover{
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                }
+            }
+        }
+        .Videos_Main{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin:0;
+            padding:0;
+            margin-bottom:100px;
+
+            .Three_Vid{
+                display:flex;
+                align-items: center;
+                justify-content:center;
+                margin: 0;
+                padding: 0;
+                position: relative;
+                text-decoration: none;
+                color:rgb(176,176,176);
+
+                &:hover{
+                    color: white;
+                }
+
+                img{
+                    margin: 0;
+                    padding:0;
+
+                    &:hover{
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    }
+                }
+                .Play_Container{
+                    z-index: 3;
+                    padding-top: -200px;
+                    position: absolute;
+
+                    .Play{
+                        font-size:80px;
+                    }
+                    .Heading{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
