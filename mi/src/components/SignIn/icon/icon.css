@@ -1,0 +1,18 @@
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.facebook{
+    width: 70px;
+    height:70px;
+    
+    
+}
+.google{
+    width: 70px;
+    height:70px;
+    
+}

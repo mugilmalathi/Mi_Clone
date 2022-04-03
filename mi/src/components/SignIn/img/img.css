@@ -1,0 +1,11 @@
+.imgcontiner {
+    height: 809px;
+    width: 30%;
+    text-align: center;
+background-color: rgb(231, 186, 186);
+
+}
+#img{
+    height: 100%;
+    width: 100%
+}

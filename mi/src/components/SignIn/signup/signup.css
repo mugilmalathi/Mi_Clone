@@ -1,0 +1,41 @@
+#cars{
+    width: 70%;
+    height: 60px;
+    border: none;
+    background-color: #f8f7f7;
+    font-size: large;
+    border-radius: 5px;
+    padding-left: 2%;
+    color: gray;
+}
+optgroup{
+    color: rgb(255, 123, 0);
+}
+option {
+    color: gray;
+}
+.forcheck{
+    display: flex;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 12%;
+    margin-bottom: 20PX;
+    
+}
+.check{
+    width: 25px;
+    height: 25px;
+    margin-top: 18px; 
+}
+.hor{
+    color: rgb(255, 123, 0);
+    text-align: right;
+    margin-right: 12%;
+}
+.hor:hover{
+    cursor: pointer;
+}
+.op{
+    color: gray;
+    
+}

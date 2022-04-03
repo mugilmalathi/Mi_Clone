@@ -1,0 +1,50 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.miaccount{
+    display: flex;
+    width: 45%;
+    justify-content: space-evenly;
+    /* padding-right: 0%; */
+
+    
+   
+    
+}
+.p{
+    color: gray;
+  text-decoration: underline solid white;
+}
+.miicon{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+   margin-right: -5%;
+    
+}
+.links{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* background-color: red; */
+    margin-top: 15px;
+    justify-content: end;
+    justify-content: space-evenly;
+    color: gray;
+    margin-left: 15%;
+}
+.line{
+    height: 35px;
+    
+    color: gray;
+}
+.p:hover{
+    color:rgb(255, 123, 0) ;
+    cursor: pointer;
+}
+.mip{
+    font-size: xx-large;
+    margin-top: 7%;
+}
