@@ -1,5 +1,5 @@
 <h1>MI Globe Clone</h1>
-<p>Webpage is to view the overall product features like the mobile devices, audio devices, lide devices, smart watches, etc..</p>
+<p>Webpage is to view the overall product features like the mobile devices, audio devices, lide devices, smart watches, etc.. We were 4 Members in a team to complete the project within 5days.</p>
 <h4>Features:</h4>
 <ul>
   <li>Functional landing page.</li>
@@ -26,23 +26,19 @@
 
   Snapshots:
   
- Landing Page
-![](/Dunzo/dunzo1.png)
-Login Page
-![](/Dunzo/dunzo2.png)
- Search Functionality Page
- ![](/Dunzo/dunzo3.png)
-  Location Functionality Page
-  ![](/Dunzo/dunzo4.png)
-   Groceries Functionality Page:
-   ![](/Dunzo/dunzo5.png)
-    Restuarant Page:
-    ![](/Dunzo/dunzo6.png)
-     Add to Cart Page
-     ![](/Dunzo/dunzo7.png)
-      Payment Address Page
-      ![](/Dunzo/dunzo8.png)
-       Payment Page
-       ![](/Dunzo/dunzo9.png)
-        Payment Successful Page
-        ![](/Dunzo/dunzo10.png)
+ Landing Page:
+![](/Images/mi1.png)
+Carousel: (Slider)
+![](/Images/mi1.png)
+ Landing Page Functional Cards:
+ ![](/Images/mi2.png)
+  Video Section:
+  ![](/Images/mi3.png)
+   Landing Page Footer:
+   ![](/Images/mi4.png)
+    All Product Page:
+    ![](/Images/mi5.png)
+     Product Features Page:
+     ![](/Images/mi6.png)
+      SignIn Signup Page:
+      ![](/Images/mi7.png)
